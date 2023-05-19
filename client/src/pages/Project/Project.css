@@ -1,0 +1,107 @@
+.create-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.project-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slogan {
+    font-family: "La Belle Aurore";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 130px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.fileContainer{
+  background-color: #AFE0A8;
+  padding: 10px;
+  margin-bottom: 10%;
+  border-radius: 10px;
+
+}
+.headers{
+    font-family: "Source Serif Pro", serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+
+}
+
+option {
+    height: 40px;
+    background-color: #AFE0A8;
+    width: 200px;
+  }
+
+select {
+    height: 40px;
+    background-color: #AFE0A8;
+    width: 200px;
+}
+.entryBoxes{
+    border: 1px solid white;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  padding: 8px 12px 10px 12px;
+  margin-bottom: 20%;
+}
+.text-green-500 {
+    color: #48bb78;
+}
+
+.text-red-500 {
+    color: #f56565;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.project-tittle {
+    width: 100%;
+    background-color: #AFE0A8;
+    color: #3E4436;
+    padding: 10px;
+    
+}
+
+/* input[type="file"] {
+    display: none;
+} */
+
+
+
+button[type="submit"] {
+    background-color: #4299e1;
+    border: none;
+    border-radius: 0.25rem;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    transition: all 0.3s ease;
+}
+
+.buttonContainer{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button[type="submit"]:hover:not(:disabled) {
+    background-color: #2b6cb0;
+    /* You can replace this with your desired color */
+}
